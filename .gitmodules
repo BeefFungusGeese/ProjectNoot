@@ -1,0 +1,6 @@
+[submodule "Plugins/AngryUtility"]
+	path = Plugins/AngryUtility
+	url = git@github.com:AngryLizard/AngryUtility.git
+[submodule "Plugins/AngryAnimationTools"]
+	path = Plugins/AngryAnimationTools
+	url = git@github.com:AngryLizard/AngryAnimationTools.git
