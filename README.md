@@ -1,5 +1,5 @@
 # ProjectNoot
-Funny bird game
+Funny game about penguins
 
 ## Git 
 
