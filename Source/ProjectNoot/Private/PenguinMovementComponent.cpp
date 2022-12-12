@@ -264,7 +264,7 @@ FVector UPenguinMovementComponent::WalkingMovement(float DeltaTime, const FVecto
 	// Slide more when going down a hill
 	Friction *= 1.0f - FMath::Max(Slope, 0.0f);
 
-	MaxSpeed = FMath::Max(MaxSpeed, MaxSpeed * AnalogInputModifier);
+	MaxSpeed = FMath::Min(MaxSpeed, MaxSpeed * AnalogInputModifier);
 
 	// Accelerate forwards
 	const FVector BaseAcceleration = FMath::Lerp(InputAcceleration, OutDirection * InputAcceleration.Size(), ForwardRatio);
